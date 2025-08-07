@@ -244,7 +244,7 @@ class _LifeCounterScreenState extends State<LifeCounterScreen>
               child: _buildCounterCard(
                 'Years',
                 '${settings.yearsRemaining}',
-                Icons.calendar_view_year,
+                Icons.calendar_today,
                 Colors.blue,
               ),
             ),
